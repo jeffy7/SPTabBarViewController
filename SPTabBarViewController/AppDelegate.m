@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 #import "SPTabBarViewController.h"
-#import "CCLogSystem.h"
 
 @interface AppDelegate ()
 
