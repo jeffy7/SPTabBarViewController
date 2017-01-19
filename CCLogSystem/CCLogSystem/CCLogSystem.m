@@ -76,15 +76,10 @@
     CCLogViewController *logViewController = [[CCLogViewController alloc] init];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:logViewController];
     
-    UIApplication *application = [UIApplication sharedApplication];
-    [application.windows enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-        if ([obj isKeyWindow]) {
-            UIWindow *keyWindow = obj;
-            if (keyWindow.rootViewController) {
-                [keyWindow.rootViewController presentViewController:navigationController animated:YES completion:NULL];
-            }
-        }
-    }];
+    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    SPTabBarViewController *roorVC = (SPTabBarViewController *)delegate.window.rootViewController;
+    [roorVC presentViewController:navigationController animated:YES completion:NULL];
+
 }
 
 + (NSArray *)availableLogs
