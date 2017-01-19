@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "SPTabBarViewController.h"
+#import "CCLogSystem.h"
 
 @interface AppDelegate ()
 
@@ -17,13 +18,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
+    [CCLogSystem setupDefaultLogConfigure];
+
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = [[SPTabBarViewController alloc] init];
     
     [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [CCLogSystem setupDefaultLogConfigure];
+    
     return YES;
 }
 

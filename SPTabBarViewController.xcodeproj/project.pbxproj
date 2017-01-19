@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17441F3F1E30ABF70082BF8E /* CCLocationMake.m in Sources */ = {isa = PBXBuildFile; fileRef = 17441F251E30ABF60082BF8E /* CCLocationMake.m */; };
+		17441F401E30ABF70082BF8E /* CCLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 17441F271E30ABF60082BF8E /* CCLog.m */; };
+		17441F411E30ABF70082BF8E /* CCLogController+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 17441F291E30ABF60082BF8E /* CCLogController+Utility.m */; };
+		17441F421E30ABF70082BF8E /* CCLogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17441F2B1E30ABF60082BF8E /* CCLogController.m */; };
+		17441F431E30ABF70082BF8E /* CCLogReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17441F2D1E30ABF60082BF8E /* CCLogReviewViewController.m */; };
+		17441F441E30ABF70082BF8E /* CCLogStringImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 17441F2F1E30ABF60082BF8E /* CCLogStringImp.m */; };
+		17441F451E30ABF70082BF8E /* CCLogSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 17441F311E30ABF60082BF8E /* CCLogSystem.m */; };
+		17441F461E30ABF70082BF8E /* CCLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17441F331E30ABF60082BF8E /* CCLogViewController.m */; };
+		17441F471E30ABF70082BF8E /* CCSimpleFileOutputRedirectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17441F351E30ABF60082BF8E /* CCSimpleFileOutputRedirectionController.m */; };
+		17441F481E30ABF70082BF8E /* CCTeeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17441F371E30ABF60082BF8E /* CCTeeController.m */; };
+		17441F491E30ABF70082BF8E /* NSObject+CCReverseComparison.m in Sources */ = {isa = PBXBuildFile; fileRef = 17441F391E30ABF60082BF8E /* NSObject+CCReverseComparison.m */; };
+		17441F4A1E30ABF70082BF8E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17441F3E1E30ABF70082BF8E /* Info.plist */; };
 		17DDA63B1DE0370D008C7097 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DDA63A1DE0370D008C7097 /* main.m */; };
 		17DDA63E1DE0370D008C7097 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DDA63D1DE0370D008C7097 /* AppDelegate.m */; };
 		17DDA6411DE0370D008C7097 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DDA6401DE0370D008C7097 /* ViewController.m */; };
@@ -54,6 +66,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		17441F4C1E30ABF70082BF8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17441F3A1E30ABF60082BF8E /* CCLogSystem.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 348FAFCF1A02325000AA05C2;
+			remoteInfo = CCLogSystem;
+		};
 		17DDA6501DE0370D008C7097 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 17DDA62E1DE0370D008C7097 /* Project object */;
@@ -71,6 +90,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17441F231E30ABF60082BF8E /* CCFileOutputRedirectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFileOutputRedirectionController.h; sourceTree = "<group>"; };
+		17441F241E30ABF60082BF8E /* CCLocationMake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLocationMake.h; sourceTree = "<group>"; };
+		17441F251E30ABF60082BF8E /* CCLocationMake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLocationMake.m; sourceTree = "<group>"; };
+		17441F261E30ABF60082BF8E /* CCLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLog.h; sourceTree = "<group>"; };
+		17441F271E30ABF60082BF8E /* CCLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLog.m; sourceTree = "<group>"; };
+		17441F281E30ABF60082BF8E /* CCLogController+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCLogController+Utility.h"; sourceTree = "<group>"; };
+		17441F291E30ABF60082BF8E /* CCLogController+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCLogController+Utility.m"; sourceTree = "<group>"; };
+		17441F2A1E30ABF60082BF8E /* CCLogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLogController.h; sourceTree = "<group>"; };
+		17441F2B1E30ABF60082BF8E /* CCLogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLogController.m; sourceTree = "<group>"; };
+		17441F2C1E30ABF60082BF8E /* CCLogReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLogReviewViewController.h; sourceTree = "<group>"; };
+		17441F2D1E30ABF60082BF8E /* CCLogReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLogReviewViewController.m; sourceTree = "<group>"; };
+		17441F2E1E30ABF60082BF8E /* CCLogStringImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLogStringImp.h; sourceTree = "<group>"; };
+		17441F2F1E30ABF60082BF8E /* CCLogStringImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLogStringImp.m; sourceTree = "<group>"; };
+		17441F301E30ABF60082BF8E /* CCLogSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLogSystem.h; sourceTree = "<group>"; };
+		17441F311E30ABF60082BF8E /* CCLogSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLogSystem.m; sourceTree = "<group>"; };
+		17441F321E30ABF60082BF8E /* CCLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLogViewController.h; sourceTree = "<group>"; };
+		17441F331E30ABF60082BF8E /* CCLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLogViewController.m; sourceTree = "<group>"; };
+		17441F341E30ABF60082BF8E /* CCSimpleFileOutputRedirectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSimpleFileOutputRedirectionController.h; sourceTree = "<group>"; };
+		17441F351E30ABF60082BF8E /* CCSimpleFileOutputRedirectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSimpleFileOutputRedirectionController.m; sourceTree = "<group>"; };
+		17441F361E30ABF60082BF8E /* CCTeeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTeeController.h; sourceTree = "<group>"; };
+		17441F371E30ABF60082BF8E /* CCTeeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTeeController.m; sourceTree = "<group>"; };
+		17441F381E30ABF60082BF8E /* NSObject+CCReverseComparison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CCReverseComparison.h"; sourceTree = "<group>"; };
+		17441F391E30ABF60082BF8E /* NSObject+CCReverseComparison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CCReverseComparison.m"; sourceTree = "<group>"; };
+		17441F3A1E30ABF60082BF8E /* CCLogSystem.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CCLogSystem.xcodeproj; sourceTree = "<group>"; };
+		17441F3E1E30ABF70082BF8E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17DDA6361DE0370D008C7097 /* SPTabBarViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPTabBarViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17DDA63A1DE0370D008C7097 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		17DDA63C1DE0370D008C7097 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -190,9 +234,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17441F211E30ABF60082BF8E /* CCLogSystem */ = {
+			isa = PBXGroup;
+			children = (
+				17441F221E30ABF60082BF8E /* CCLogSystem */,
+				17441F3A1E30ABF60082BF8E /* CCLogSystem.xcodeproj */,
+				17441F3D1E30ABF70082BF8E /* CCLogSystemTests */,
+			);
+			path = CCLogSystem;
+			sourceTree = "<group>";
+		};
+		17441F221E30ABF60082BF8E /* CCLogSystem */ = {
+			isa = PBXGroup;
+			children = (
+				17441F231E30ABF60082BF8E /* CCFileOutputRedirectionController.h */,
+				17441F241E30ABF60082BF8E /* CCLocationMake.h */,
+				17441F251E30ABF60082BF8E /* CCLocationMake.m */,
+				17441F261E30ABF60082BF8E /* CCLog.h */,
+				17441F271E30ABF60082BF8E /* CCLog.m */,
+				17441F281E30ABF60082BF8E /* CCLogController+Utility.h */,
+				17441F291E30ABF60082BF8E /* CCLogController+Utility.m */,
+				17441F2A1E30ABF60082BF8E /* CCLogController.h */,
+				17441F2B1E30ABF60082BF8E /* CCLogController.m */,
+				17441F2C1E30ABF60082BF8E /* CCLogReviewViewController.h */,
+				17441F2D1E30ABF60082BF8E /* CCLogReviewViewController.m */,
+				17441F2E1E30ABF60082BF8E /* CCLogStringImp.h */,
+				17441F2F1E30ABF60082BF8E /* CCLogStringImp.m */,
+				17441F301E30ABF60082BF8E /* CCLogSystem.h */,
+				17441F311E30ABF60082BF8E /* CCLogSystem.m */,
+				17441F321E30ABF60082BF8E /* CCLogViewController.h */,
+				17441F331E30ABF60082BF8E /* CCLogViewController.m */,
+				17441F341E30ABF60082BF8E /* CCSimpleFileOutputRedirectionController.h */,
+				17441F351E30ABF60082BF8E /* CCSimpleFileOutputRedirectionController.m */,
+				17441F361E30ABF60082BF8E /* CCTeeController.h */,
+				17441F371E30ABF60082BF8E /* CCTeeController.m */,
+				17441F381E30ABF60082BF8E /* NSObject+CCReverseComparison.h */,
+				17441F391E30ABF60082BF8E /* NSObject+CCReverseComparison.m */,
+			);
+			path = CCLogSystem;
+			sourceTree = "<group>";
+		};
+		17441F3B1E30ABF60082BF8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17441F4D1E30ABF70082BF8E /* libCCLogSystem.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17441F3D1E30ABF70082BF8E /* CCLogSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				17441F3E1E30ABF70082BF8E /* Info.plist */,
+			);
+			path = CCLogSystemTests;
+			sourceTree = "<group>";
+		};
 		17DDA62D1DE0370D008C7097 = {
 			isa = PBXGroup;
 			children = (
+				17441F211E30ABF60082BF8E /* CCLogSystem */,
 				17DDA6381DE0370D008C7097 /* SPTabBarViewController */,
 				17DDA6521DE0370D008C7097 /* SPTabBarViewControllerTests */,
 				17DDA65D1DE0370D008C7097 /* SPTabBarViewControllerUITests */,
@@ -461,6 +562,12 @@
 			mainGroup = 17DDA62D1DE0370D008C7097;
 			productRefGroup = 17DDA6371DE0370D008C7097 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 17441F3B1E30ABF60082BF8E /* Products */;
+					ProjectRef = 17441F3A1E30ABF60082BF8E /* CCLogSystem.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				17DDA6351DE0370D008C7097 /* SPTabBarViewController */,
@@ -470,6 +577,16 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		17441F4D1E30ABF70082BF8E /* libCCLogSystem.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCCLogSystem.a;
+			remoteRef = 17441F4C1E30ABF70082BF8E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		17DDA6341DE0370D008C7097 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -478,6 +595,7 @@
 				17DDA6491DE0370D008C7097 /* LaunchScreen.storyboard in Resources */,
 				17DDA6461DE0370D008C7097 /* Assets.xcassets in Resources */,
 				17DDA6E11DE03D4E008C7097 /* LICENSE in Resources */,
+				17441F4A1E30ABF70082BF8E /* Info.plist in Resources */,
 				17DDA6441DE0370D008C7097 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,12 +631,18 @@
 				17DDA6EE1DE03D4E008C7097 /* UIImageView+HighlightedWebCache.m in Sources */,
 				17DDA7291DE08B17008C7097 /* View+MASAdditions.m in Sources */,
 				17DDA6E71DE03D4E008C7097 /* SDWebImageDownloader.m in Sources */,
+				17441F431E30ABF70082BF8E /* CCLogReviewViewController.m in Sources */,
+				17441F411E30ABF70082BF8E /* CCLogController+Utility.m in Sources */,
+				17441F451E30ABF70082BF8E /* CCLogSystem.m in Sources */,
 				17DDA67E1DE0377A008C7097 /* SPTabBarViewController.m in Sources */,
 				17DDA6E51DE03D4E008C7097 /* SDWebImageCompat.m in Sources */,
 				17DDA7231DE08B17008C7097 /* MASConstraintMaker.m in Sources */,
 				17DDA7271DE08B17008C7097 /* NSArray+MASAdditions.m in Sources */,
+				17441F441E30ABF70082BF8E /* CCLogStringImp.m in Sources */,
 				17DDA7261DE08B17008C7097 /* MASViewConstraint.m in Sources */,
 				17DDA6EA1DE03D4E008C7097 /* SDWebImagePrefetcher.m in Sources */,
+				17441F471E30ABF70082BF8E /* CCSimpleFileOutputRedirectionController.m in Sources */,
+				17441F491E30ABF70082BF8E /* NSObject+CCReverseComparison.m in Sources */,
 				17DDA6ED1DE03D4E008C7097 /* UIImage+MultiFormat.m in Sources */,
 				17DDA6F81DE0409D008C7097 /* SPTabBar.m in Sources */,
 				17DDA6411DE0370D008C7097 /* ViewController.m in Sources */,
@@ -526,19 +650,24 @@
 				17DDA6EB1DE03D4E008C7097 /* UIButton+WebCache.m in Sources */,
 				17DDA63E1DE0370D008C7097 /* AppDelegate.m in Sources */,
 				17DDA6E41DE03D4E008C7097 /* SDImageCache.m in Sources */,
+				17441F481E30ABF70082BF8E /* CCTeeController.m in Sources */,
 				17DDA6781DE0375C008C7097 /* BViewController.m in Sources */,
 				17DDA7281DE08B17008C7097 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				17DDA7241DE08B17008C7097 /* MASLayoutConstraint.m in Sources */,
 				17DDA67A1DE0375C008C7097 /* DViewController.m in Sources */,
+				17441F461E30ABF70082BF8E /* CCLogViewController.m in Sources */,
 				17DDA7081DE087DC008C7097 /* SPTabBarItemView.m in Sources */,
 				17DDA7221DE08B17008C7097 /* MASConstraint.m in Sources */,
 				17DDA6FB1DE043FB008C7097 /* SPTabBarView.m in Sources */,
 				17DDA63B1DE0370D008C7097 /* main.m in Sources */,
+				17441F421E30ABF70082BF8E /* CCLogController.m in Sources */,
 				17DDA7211DE08B17008C7097 /* MASCompositeConstraint.m in Sources */,
 				17DDA6EC1DE03D4E008C7097 /* UIImage+GIF.m in Sources */,
 				17DDA7251DE08B17008C7097 /* MASViewAttribute.m in Sources */,
 				17DDA6EF1DE03D4E008C7097 /* UIImageView+WebCache.m in Sources */,
 				17DDA6E31DE03D4E008C7097 /* NSData+ImageContentType.m in Sources */,
+				17441F401E30ABF70082BF8E /* CCLog.m in Sources */,
+				17441F3F1E30ABF70082BF8E /* CCLocationMake.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
