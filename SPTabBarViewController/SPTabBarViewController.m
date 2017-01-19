@@ -92,10 +92,10 @@
 
 
 - (void)prepareTabBar {
-    if (_tabBarView == nil) {
+    if (!_tabBarView) {
         _tabBarView = [[SPTabBarView alloc] init];
         _tabBarView.backgroundColor = [UIColor clearColor];
-        _tabBarView.frame = CGRectMake(0, -20, self.tabBar.frame.size.width, self.tabBar.frame.size.height);
+        _tabBarView.frame = CGRectMake(0, 0, self.tabBar.frame.size.width, self.tabBar.frame.size.height);
         __weak typeof(self) weakself = self;
         _tabBarView.tapBarViewCallBack = ^(SPTabBarItemView *itemView,NSInteger index){
             [weakself tapItemView:itemView index:index];

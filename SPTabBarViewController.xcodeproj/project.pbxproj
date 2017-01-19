@@ -428,7 +428,7 @@
 		17DDA62E1DE0370D008C7097 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = je_ffy;
 				TargetAttributes = {
 					17DDA6351DE0370D008C7097 = {
@@ -611,6 +611,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -658,6 +659,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -774,6 +776,7 @@
 				17DDA6651DE0370D008C7097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17DDA6661DE0370D008C7097 /* Build configuration list for PBXNativeTarget "SPTabBarViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -782,6 +785,7 @@
 				17DDA6681DE0370D008C7097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17DDA6691DE0370D008C7097 /* Build configuration list for PBXNativeTarget "SPTabBarViewControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -790,6 +794,7 @@
 				17DDA66B1DE0370D008C7097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
